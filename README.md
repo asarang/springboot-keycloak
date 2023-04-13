@@ -4,10 +4,15 @@
 Keycloak needs setting up with the following
 
 Relam name -SpringBootKeycloak
+
 Client name springboot-keycloak-client 
+
 realm roles admin and user
+
 roles app_admin, and app_user
+
 create users
+
 assing realm_role to user
 
 To generate Access Key via Post man run the following
@@ -19,8 +24,11 @@ URL = http://localhost:8080/realms/SpringBootKeycloak/protocol/openid-connect/to
 In Bdoy element add
 
 grant_type:password
+
 client_id:springboot-keycloak-client
+
 username:<username>
+
 password:<password>
 
 
